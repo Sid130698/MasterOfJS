@@ -22,8 +22,11 @@ console.table([accountId, accountEmail, accountCity,password,accountState,accoun
 * what the hell is the let and var and what is the use of any of them if we can directly use the variable like accountCity
 * its because the concept of scope { } was not there in the javascript .
 * intial days javascript didn't had the concept of scope { }
-* var has no scope .... even if u crerate the variable with the same name in the new scope it will refer to the outer scope.
-* let is the way to go
+* "Variables declared with 'var' have a broader scope; even if you create a variable with the same name in a new scope, it will refer to the outer scope."
+
+"It's recommended to use 'let' for variable declaration due to its better scoping behavior and avoidance of potential issues with 'var'."
+
+"Avoid using variables without the 'var', 'let', or 'const' prefix, as it can lead to unintended consequences and should be considered a coding practice to avoid."
 */
 
 // here is the function that will explain the problem.
