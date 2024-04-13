@@ -55,3 +55,6 @@ console.log(someNumberInString);
 - someNumber = [1, 2, 3] (array) someNumberInString = "1,2,3"
 - someNumber = function() { console.log("Hello!"); } (function) someNumberInString = "function() { console.log("Hello!"); }"
 */
+
+//******************************************** Operrations *************************************************************************************     */ 
+
